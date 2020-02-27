@@ -119,8 +119,8 @@ spec:
         - name: REDIS
 
           value: "mhc-back"
-        imagePullSecrets:
-        - name: mysecretkey
+      imagePullSecrets:
+      - name: mysecretkey
 ---
 
 apiVersion: v1
