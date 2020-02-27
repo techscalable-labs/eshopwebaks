@@ -98,8 +98,7 @@ spec:
         image: az400acrmj.azurecr.io/myhealth.web:latest
 
         imagePullPolicy: Always
-      imagePullSecrets:
-      - name: mysecretkey
+
 
         ports:
 
@@ -120,7 +119,8 @@ spec:
         - name: REDIS
 
           value: "mhc-back"
-
+        imagePullSecrets:
+        - name: mysecretkey
 ---
 
 apiVersion: v1
