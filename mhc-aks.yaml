@@ -98,6 +98,8 @@ spec:
         image: __ACR__/myhealth.web:latest
 
         imagePullPolicy: Always
+      imagePullSecrets:
+      - name: mysecretkey
 
         ports:
 
