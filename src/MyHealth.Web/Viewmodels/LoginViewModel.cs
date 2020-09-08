@@ -5,7 +5,7 @@ namespace MyHealth.Web.Viewmodels
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "User name")]
+        [Display(Name = "User Name")]
         public string UserName { get; set; }
 
         [Required]
