@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>HealthClinic.biz</Description>
+    <Description>HealthClinic.K8s</Description>
     <Authors>Microsoft</Authors>
     <TargetFramework>netstandard1.6</TargetFramework>
     <AssemblyName>MyHealth.API</AssemblyName>
