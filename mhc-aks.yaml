@@ -95,7 +95,7 @@ spec:
 
       - name: mhc-front
 
-        image: k8smjacr.azurecr.io/myhealth.web:latest
+        image: az400m16acr2741920939.azurecr.io/myhealth.web:latest
 
         imagePullPolicy: Always
 
