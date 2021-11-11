@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:latest
+FROM microsoft/aspnetapp:latest
 ARG source
 WORKDIR /app
 EXPOSE 80
